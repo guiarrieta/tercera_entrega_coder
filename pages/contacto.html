@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link bootstrap -->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+
+    <!-- Linkeo CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Titulo de la barra de Navegador -->
+    <title>Muy Deco - Contactenos</title>
+</head>
+<body>
+    <header>
+
+        <!-- Titulo Pagina Contacto  -->
+        <h1 class="titulo-main"><span class="fw-bolder text-black">Muy Deco</span> - Contactenos</h1>
+		
+        <!-- Barra navegacion -->
+        <nav>
+			<ul class="barra_navegacion_ppal">
+				<li><a class="link-nav" href="../index.html">Home</a></li>
+				<li><a class="link-nav" href="./habitacion.html">Habitacion</a></li>
+				<li><a class="link-nav" href="./living.html">Living</a></li>
+				<li><a class="link-nav" href="./giftboxs.html">Gift Boxs</a></li>
+				<li><a class="link-nav" href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+        <form class="flex-column">
+            <div class="mb-3 col-auto">
+                <label for="exampleInputName" class="form-label">Ingrese su nombre</label>
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Apellido Nombre">
+            </div>
+            <div class="mb-3 col-auto">
+                <label for="exampleInputPhone" class="form-label">Ingrese su Telefono</label>
+                <input type="text" class="form-control" id="exampleInputPhone" placeholder="cod Area + Numero telefono">
+            </div>
+            <div class="mb-3 col-auto">
+              <label for="exampleInputEmail1" class="form-label">Ingrese su Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@dominio">
+              <div id="emailHelp" class="form-text">Su correo no sera compartido con terceros.</div>
+            </div>
+            <div class="mb-3 col-auto">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese aqui su consulta"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" >Enviar Consulta</button>
+          </form>
+        </div>
+        <!-- FORMULARIO VIEJO -->
+        <!-- 
+        <form action="">
+            <fieldset class="formulario">
+                <legend>Contactenos</legend>
+                <div>
+                    <label for="nombre"><span>Nombre:</span></label>
+                    <input type="text" placeholder="Ingrese su nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="correo"><span>Correo :</span></label>
+                    <input type="email" placeholder="Ingrese su email" id="correo">
+                </div>
+
+                <div>
+                    <label for="mensaje"><span>Mensaje</span></label>
+                    <textarea name="mensaje" id="mensaje" cols="40" rows="20"></textarea>
+                </div>
+
+                <input class="boton" type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        -->
+
+    </main>
+    <!-- Pie de Pagina con Social media --> 
+	<footer>
+		
+        <!-- Iconos y enlaces a Redes Sociales -->
+		<div class="icono-social">
+
+            <a href="https://ar.pinterest.com/search/pins/?q=muy%20deco&rs=typed" target="_blank">
+                <img src="../media/iconos/pinterest.png" alt="Logo de Pinterest">
+            </a>
+            
+            <a href="https://www.facebook.com/profile.php?id=100068111636686" target="_blank">
+                <img src="../media/iconos/facebook.png" alt="Logo de Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/muydecobyjuli/" target="_blank">
+                <img src="../media/iconos/instagram.png" alt="Logo de Instagram">
+            </a>
+
+            <a href="https://wa.me/5492494690889" target="_blank">
+                <img src="../media/iconos/whatsapp.png" alt="Logo de Whatsapp">
+            </a>
+        </div>
+        <div class="texto">
+            <p>2023 - Todos los derechos reservados</p>
+        </div>
+
+	</footer>
+     <!-- link js bootstrap -->
+     <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+html{
+    font-family: 'Tangerine', serif;
+}
+
+body{
+    background-color: beige;
+}
+
+/* formato titulo principal de todas las paginas */
+.titulo-main {
+    color: gray;
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 100;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: 'Tangerine', serif;
+}
+
+ul{
+    /* quitar botones de las listas */
+    list-style: none;
+}
+
+/* formato menu de navegacion de todas las paginas */
+.barra_navegacion_ppal{
+    font-size: 4vw;
+    font-family: 'Tangerine', serif;
+    background-color: antiquewhite;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+}
+
+.barra_navegacion_ppal li a:hover{
+    background-color:#FCC;
+}
+
+
+.link-nav{
+    text-decoration: none;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 65% 30%;
+}
+
+.cuerpo-main{
+    font-size: 36px;
+    display: grid;
+    width: auto;
+    grid-template-columns: 33% 32%;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.carousel-item img{
+    width: 100%;
+}
+.cuerpo-habitacion{
+    display: grid;
+    width: auto;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+
+}
+
+.cuerpo-habitacion img{
+    width: 80%;
+}
+
+.cuerpo-living{
+    display: grid;
+    width: auto;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+
+}
+
+.cuerpo-living img{
+    width: 80%;
+}
+
+.cuerpo-gift{
+    display: grid;
+    width: auto;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+
+}
+
+.cuerpo-gift img{
+    width: 80%;
+}
+
+
+
+.barra_lateral {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 38%;
+}
+
+/* formato imagenes de barra lateral pagina ppal */
+.barra_lateral img{
+    width: 100px;
+    height: 100px;
+}
+
+.mifooter	{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.icono-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    flex-direction: row;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin: 5px;
+}
+
+
+/* formato imagenes de footer */
+.icono-social a img{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    height: 50px;
+    width: 40px;
+}
+
+/* texto de footer  */
+footer .texto{
+    color: lightgray;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+}
+
+/* contenedor de formulario */
+form{
+    display: flex;
+    justify-content: center;
+}
+
+/* estilo formulario contacto */
+.formulario {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+</style>
